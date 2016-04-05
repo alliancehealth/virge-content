@@ -1,0 +1,21 @@
+{
+    "name": "virge/content",
+    "description": "Virge::Content provides base controller classes and components to work with the Twig templating engine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Kramer",
+            "email": "kramer@siosphere.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.0"
+    },
+    "require-dev": {
+        "virge/core": "dev-master",
+        "virge/io": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Virge\\": "Virge/"}
+    }
+}
