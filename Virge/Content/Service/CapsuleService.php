@@ -1,6 +1,7 @@
 <?php
 namespace Virge\Content\Service;
 
+use Virge\Core\BaseService;
 use Virge\Core\Config;
 
 /**
